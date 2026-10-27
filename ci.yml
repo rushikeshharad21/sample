@@ -1,0 +1,8 @@
+name:Minimal CI
+ on:[push]
+ jobs:
+  tests:
+    runs-on:ubuntu-latest
+    steps:
+      name:login message
+      -run:echo "login successfully"
